@@ -1,4 +1,4 @@
-import { generateScript } from "@/components/configs/AiModel";
+import { generateScript } from "@/configs/AiModel";
 import { NextResponse } from "next/server";
 
 const SCRIPT_PROMPT = `write a two different script for 30 Second video on Topic:{topic},
