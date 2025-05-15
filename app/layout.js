@@ -1,28 +1,21 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import ConvexClientProvider from "./ConvexClientProvider";
 
 export const metadata = {
   title: "AI-SVC",
   description: "AI-Short-Video-Creator",
 };
 
+const roboto = Roboto({
+  subsets: ["latin"],
+});
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang="en" suppressHydrationWarning={true}>
+      <body className={roboto.className}>
+        <ConvexClientProvider>{children}</ConvexClientProvider>
       </body>
     </html>
   );
