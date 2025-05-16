@@ -13,6 +13,10 @@ function RemotionPlayer({ videoData }) {
         compositionHeight={1280}
         fps={30}
         controls
+        style={{
+          width: "28vw",
+          height: "75vh",
+        }}
         inpitProps={{
           videoData: videoData,
         }}

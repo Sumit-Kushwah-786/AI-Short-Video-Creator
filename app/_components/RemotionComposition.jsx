@@ -1,6 +1,6 @@
 import React from "react";
 
-function RemotionComposition() {
+function RemotionComposition({ videoData }) {
   return <div>RemotionComposition</div>;
 }
 
