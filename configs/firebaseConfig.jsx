@@ -8,12 +8,12 @@ import { getAuth } from "firebase/auth";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: "ai-svg-c5fc1.firebaseapp.com",
-  projectId: "ai-svg-c5fc1",
-  storageBucket: "ai-svg-c5fc1.firebasestorage.app",
-  messagingSenderId: "820064442545",
-  appId: "1:820064442545:web:3da895541b7cd59a262a90",
-  measurementId: "G-LTYZPYTQ9B",
+  authDomain: "ai-short-video-creator-145bc.firebaseapp.com",
+  projectId: "ai-short-video-creator-145bc",
+  storageBucket: "ai-short-video-creator-145bc.firebasestorage.app",
+  messagingSenderId: "888702531866",
+  appId: "1:888702531866:web:bbf9b29590b9629b0c14a3",
+  measurementId: "G-M7VEFKDQ4R",
 };
 
 // Initialize Firebase
